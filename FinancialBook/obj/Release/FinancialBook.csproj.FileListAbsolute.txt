@@ -1,0 +1,11 @@
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\bin\Release\FinancialBook.exe.config
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\bin\Release\FinancialBook.exe
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\bin\Release\FinancialBook.pdb
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.FormLogIn.resources
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.FormMainBoard.resources
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.Properties.Resources.resources
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.FormRegister.resources
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.csproj.GenerateResource.cache
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.exe
+C:\Users\filip\source\repos\FinancialBook\FinancialBook\obj\Release\FinancialBook.pdb

@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainBoard));
             this.picBoxX = new System.Windows.Forms.PictureBox();
             this.pozadina = new System.Windows.Forms.Panel();
+            this.btnObrisiOdabraniRacun = new System.Windows.Forms.Button();
             this.btnDodajNoviRacun = new System.Windows.Forms.Button();
             this.txtBoxDodajNoviRacun = new System.Windows.Forms.TextBox();
             this.checkBoxDodajNoviRacun = new System.Windows.Forms.CheckBox();
@@ -47,7 +49,6 @@
             this.colDatum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colOpis = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.comboBoxPrikazaniRacun = new System.Windows.Forms.ComboBox();
-            this.btnObrisiOdabraniRacun = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxX)).BeginInit();
             this.pozadina.SuspendLayout();
             this.SuspendLayout();
@@ -93,6 +94,17 @@
             this.pozadina.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pozadina_MouseDown);
             this.pozadina.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pozadina_MouseMove);
             this.pozadina.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pozadina_MouseUp);
+            // 
+            // btnObrisiOdabraniRacun
+            // 
+            this.btnObrisiOdabraniRacun.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnObrisiOdabraniRacun.Location = new System.Drawing.Point(519, 28);
+            this.btnObrisiOdabraniRacun.Name = "btnObrisiOdabraniRacun";
+            this.btnObrisiOdabraniRacun.Size = new System.Drawing.Size(99, 41);
+            this.btnObrisiOdabraniRacun.TabIndex = 14;
+            this.btnObrisiOdabraniRacun.Text = "Obriši odabrani račun";
+            this.btnObrisiOdabraniRacun.UseVisualStyleBackColor = true;
+            this.btnObrisiOdabraniRacun.Click += new System.EventHandler(this.btnObrisiOdabraniRacun_Click);
             // 
             // btnDodajNoviRacun
             // 
@@ -270,17 +282,6 @@
             this.comboBoxPrikazaniRacun.TabIndex = 0;
             this.comboBoxPrikazaniRacun.SelectedIndexChanged += new System.EventHandler(this.comboBoxPrikazaniRacun_SelectedIndexChanged);
             // 
-            // btnObrisiOdabraniRacun
-            // 
-            this.btnObrisiOdabraniRacun.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnObrisiOdabraniRacun.Location = new System.Drawing.Point(519, 28);
-            this.btnObrisiOdabraniRacun.Name = "btnObrisiOdabraniRacun";
-            this.btnObrisiOdabraniRacun.Size = new System.Drawing.Size(99, 41);
-            this.btnObrisiOdabraniRacun.TabIndex = 14;
-            this.btnObrisiOdabraniRacun.Text = "Obriši odabrani račun";
-            this.btnObrisiOdabraniRacun.UseVisualStyleBackColor = true;
-            this.btnObrisiOdabraniRacun.Click += new System.EventHandler(this.btnObrisiOdabraniRacun_Click);
-            // 
             // FormMainBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -288,6 +289,7 @@
             this.ClientSize = new System.Drawing.Size(667, 350);
             this.Controls.Add(this.pozadina);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMainBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMainBoard";

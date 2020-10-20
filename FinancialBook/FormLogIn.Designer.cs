@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogIn));
             this.Pozadina = new System.Windows.Forms.Panel();
             this.lblRegistrirajSe = new System.Windows.Forms.Label();
             this.lblText = new System.Windows.Forms.Label();
@@ -160,7 +161,7 @@
             this.ClientSize = new System.Drawing.Size(468, 315);
             this.Controls.Add(this.Pozadina);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormLogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

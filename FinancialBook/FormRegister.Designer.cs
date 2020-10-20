@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegister));
             this.picBoxLogo = new System.Windows.Forms.PictureBox();
             this.picBoxX = new System.Windows.Forms.PictureBox();
             this.txtBoxKorImeRegister = new System.Windows.Forms.TextBox();
@@ -38,8 +39,8 @@
             this.txtBoxKorZapPonovi = new System.Windows.Forms.TextBox();
             this.btnPrijaviSe = new System.Windows.Forms.Button();
             this.panelRegister = new System.Windows.Forms.Panel();
-            this.checkBoxPrikaziZaporku = new System.Windows.Forms.CheckBox();
             this.checkBoxPrikaziPonovi = new System.Windows.Forms.CheckBox();
+            this.checkBoxPrikaziZaporku = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxX)).BeginInit();
             this.panelRegister.SuspendLayout();
@@ -160,19 +161,6 @@
             this.panelRegister.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelRegister_MouseMove);
             this.panelRegister.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panelRegister_MouseUp);
             // 
-            // checkBoxPrikaziZaporku
-            // 
-            this.checkBoxPrikaziZaporku.AutoSize = true;
-            this.checkBoxPrikaziZaporku.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.checkBoxPrikaziZaporku.Location = new System.Drawing.Point(234, 235);
-            this.checkBoxPrikaziZaporku.Name = "checkBoxPrikaziZaporku";
-            this.checkBoxPrikaziZaporku.Size = new System.Drawing.Size(71, 36);
-            this.checkBoxPrikaziZaporku.TabIndex = 0;
-            this.checkBoxPrikaziZaporku.Text = "Prikaži\r\nZaporku";
-            this.checkBoxPrikaziZaporku.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBoxPrikaziZaporku.UseVisualStyleBackColor = true;
-            this.checkBoxPrikaziZaporku.CheckedChanged += new System.EventHandler(this.checkBoxPrikaziZaporku_CheckedChanged);
-            // 
             // checkBoxPrikaziPonovi
             // 
             this.checkBoxPrikaziPonovi.AutoSize = true;
@@ -185,6 +173,19 @@
             this.checkBoxPrikaziPonovi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxPrikaziPonovi.UseVisualStyleBackColor = true;
             this.checkBoxPrikaziPonovi.CheckedChanged += new System.EventHandler(this.checkBoxPrikaziPonovi_CheckedChanged);
+            // 
+            // checkBoxPrikaziZaporku
+            // 
+            this.checkBoxPrikaziZaporku.AutoSize = true;
+            this.checkBoxPrikaziZaporku.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.checkBoxPrikaziZaporku.Location = new System.Drawing.Point(234, 235);
+            this.checkBoxPrikaziZaporku.Name = "checkBoxPrikaziZaporku";
+            this.checkBoxPrikaziZaporku.Size = new System.Drawing.Size(71, 36);
+            this.checkBoxPrikaziZaporku.TabIndex = 0;
+            this.checkBoxPrikaziZaporku.Text = "Prikaži\r\nZaporku";
+            this.checkBoxPrikaziZaporku.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBoxPrikaziZaporku.UseVisualStyleBackColor = true;
+            this.checkBoxPrikaziZaporku.CheckedChanged += new System.EventHandler(this.checkBoxPrikaziZaporku_CheckedChanged);
             // 
             // FormRegister
             // 
@@ -203,6 +204,7 @@
             this.Controls.Add(this.picBoxLogo);
             this.Controls.Add(this.panelRegister);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
